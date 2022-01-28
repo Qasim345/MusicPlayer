@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#058a69" />
+    <meta name="author" content="Qasim Sarwari" />
+    <meta name="description" content="Music Player with glass effect and having playlist. best music with NCS Relaese and other. by Qasim Sarwari." />
+    <link rel="stylesheet" href="dist/style.css">
+    <title>Music Player | by Qasim</title>
+</head>
+
+<body>
+  <div class="pre-loader">
+    <span>music_note</span>
+  </div>
+    <div class="container">
+        <div class="play-list" id="play_list">
+            <div class="top">
+                <h3>Playlist</h3>
+                <div class="input">
+                    <input type="search" id="search" placeholder="Search">
+                    <span>search</span>
+                </div>
+            </div>
+            <ul id="list">
+            </ul>
+        </div>
+        <div class="player">
+            <div class="top-nav">
+                <span id="back">queue_music</span>
+                <h3>Music Player</h3>
+                <span id="volume">volume_up</span>
+            </div>
+            <div class="album">
+                <img src="" id="img">
+                <div class="anim">
+                    <div class="flex">
+                        <div id="dot1"></div>
+                        <div id="dot2"></div>
+                        <div id="dot3"></div>
+                        <div id="dot4"></div>
+                        <div id="dot5"></div>
+                    </div>
+                </div>
+            </div>
+            <audio id="audio" src="" style="display: none;"></audio>
+            <div class="text">
+                <h3 id="name">Music Title</h3>
+                <p id="art">
+                    Music artist and
+                </p>
+            </div>
+            <div class="time">
+                <p id="cur"></p>
+                <div class="bar" id="probar">
+                    <div id="bar"></div>
+                </div>
+                <p id="dur"></p>
+            </div>
+            <div class="btns">
+                <span id="repeat">repeat</span>
+                <span id="prev">skip_previous</span>
+                <span id="play">play_circle</span>
+                <span id="next">skip_next</span>
+                <span id="replay">replay</span>
+            </div>
+            <!-- volume slider -->
+            <div class="volume-top" id="volB">
+                <span id="close">keyboard_arrow_up</span>
+                <div class="slider">
+                    <span id="vOff">volume_down</span>
+                    <input type="range" min="0" max="100" oninput="getVolume()" id="vol" value="80">
+                    <span>volume_up</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="dist/jquery.min.js"></script>
+    <script src="dist/main.js"></script>
+</body>
+
+</html>
