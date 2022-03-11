@@ -6,7 +6,7 @@ let proBar = document.getElementById("probar");
 let bar = document.getElementById("bar");
 let names = ["Harley Bird - Home", "Ikson Anywhere Ikson", "Beauz & Jvna - Crazy", "Hardwind - Want Me", "Jim - Sun Goes Down", "Lost Sky - Vision NCS", "Alan_Walker_-_Fade", "Cartoon_On_&_On", "Elektronomia_Limitless", "Janji_-_Heroes_Tonight"];
 let artist = ["Jordan Schor", "Audio Library", "Beauz & Jvna", "Mike Archangelo", "Jim Yosef x Roy", "NCS Release", "NCS Release", "NCS Release", "NCS Release", "NCS Release"];
-let imgs = ["../dist/img/music-1.jpg", "../dist/img/music-2.jpg", "dist/img/music-3.jpg", "dist/img/music-4.jpg", "dist/img/music-5.jpg", "dist/img/music-6.jpg", "dist/img/music-1.jpg", "dist/img/music-3.jpg", "dist/img/music-5.jpg", "dist/img/music-1.jpg", "dist/img/music-2.jpg",];
+let imgs = ["dist/img/music-1.jpg", "dist/img/music-2.jpg", "dist/img/music-3.jpg", "dist/img/music-4.jpg", "dist/img/music-5.jpg", "dist/img/music-6.jpg", "dist/img/music-1.jpg", "dist/img/music-3.jpg", "dist/img/music-5.jpg", "dist/img/music-1.jpg", "dist/img/music-2.jpg",];
 let mSrc = ["songs/music-1.mp3", "songs/music-2.mp3", "songs/music-3.mp3", "songs/music-4.mp3", "songs/music-5.mp3", "songs/music-6.mp3", "songs/music-7.mp3", "songs/music-8.mp3", "songs/music-9.mp3", "songs/music-10.mp3"];
 let index = 0;
 window.onload = () => {
